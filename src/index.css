@@ -1,0 +1,40 @@
+html, body {
+  margin:0;
+  padding: 0;
+  background-color: #333;
+}
+
+.header, .content, .footer {
+  width:960px;
+  text-align:center;
+  margin: 0,auto;
+  border-left:3px solid #666;
+  border-right: 3px solid #666;
+}
+
+.header {
+  height: 50vh;
+  background-image: url('assets/turntable.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+
+.content {
+  min-height: 25vh;
+  background-color: DarkMagenta;
+}
+.album-box {
+  width: 300px;
+  height:300px;
+  border: 10px, solid, #cacaca;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.footer {
+  height:30vh;
+  background-color: whitesmoke;
+}
